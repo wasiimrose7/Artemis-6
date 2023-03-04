@@ -1,0 +1,248 @@
+*******************************************************************************
+ Revised: Dec 10, 2022        Artemis I / Spacecraft (Earth)              -1023
+                              https://www.nasa.gov/artemis-1
+
+ BACKGROUND:
+  NASA's 26-day unmanned Artemis I mission was a test of integrated systems to:
+
+   - launch Orion atop the SLS rocket 
+   - operate the spacecraft in a deep space environment
+   - orbit the Moon in a distant retrograde orbit before returning to Earth
+   - test Orion's heat shield at 30,000 km/hr (2760 deg. C), and 
+   - recover the crew module after reentry, descent, and splashdown
+
+ MAJOR EVENTS:
+  Launched November 16 @ 06:47:44 UTC from pad 39B at the Kennedy Space Center. 
+
+  Relative timings below may or may not be be shifted slightly due to launch 
+  being delayed 43 minutes.
+
+  launch+00h 18m 09s - Orion deploys solar arrays in Earth orbit
+        +00h 52m 56s - Perigee raise maneuver (22 second burn)
+        +01h 29m 27s - Trans-lunar injection burn (18m burn)
+        +01h 57m 36s - Orion/ICPS separation 
+        +01h 58m 58s - Upper stage separation burn
+
+  After Orion separates from the ICPS ("Interim Cryogenic Propulsion Stage"), 
+  10 small spacecraft ("CubeSats") will be deployed to perform experiments and
+  technology demonstrations. Each CubeSat provides its own propulsion and 
+  navigation.
+
+        +07h 47m 31s - Outbound Trajectory Correction-1 burn
+
+   Flight Day  02-05 - Outbound transit 
+               06-09 - Transit to Distant Retrograde Orbit (DRO) around Moon,
+                         closest lunar approach ~97 km (Day 06)
+               10-15 - In DRO
+               16-19 - Exit DRO (departure burn on Day 24)
+               20-26 - Return transit
+                  26 - Entry and splashdown (Pacific)
+
+  Splashdown off Baja California on Dec 11 at 17:40:30 UTC
+  Mission elapsed time was 25 days, 10h 54m 50s
+
+ ORION TEST DUMMIES (named by public contest)
+
+  Commander Moonikin Campos - A suited manikin will occupy the commander's seat
+   inside Orion to provide data on vibration, acceleration, and radiation that
+   crew members may experience in flight.
+ 
+  Helga and Zohar - Two additional seats in Orion will be occupied by manikin 
+   torsos manufactured from materials that mimic human bones, soft tissues, and
+   organs. The torsos will be fitted with more than 5,600 passive sensors and 
+   34 active radiation detectors.
+
+   Zohar will wear a radiation protection vest while Helga will not. The study
+   will provide data on radiation levels astronauts may encounter on lunar 
+   missions and evaluate the effectiveness of the protective vest.
+
+ SPACECRAFT DETAILS
+  SLS                
+   * Height                : 98 meters
+   * Mass at liftoff       : 2.61 million kg
+   * Thrust at liftoff     : 39.1 million Newtons
+   * Payload to the moon   : 27,000 kg
+ 
+  Orion module
+   * Crew + service mod hgt: 7.92 meters
+   * Pressurized volume    : 19.6 m^3 
+   * Mass to the Moon      : 24,000 kg
+   * Return mass at landing:  8,260 kg
+  
+ CUBESATS DISPENSED (independent missions and trajectories once released):
+  Moon
+   Lunar IceCube: Detect all forms of water & other volatiles (IR spectrometer)
+   LunaH-Map    : Higher-fidelity mapping of near-surface hydrogen in craters 
+                  and other permanently shadowed regions of the lunar South 
+                  Pole (neutron spectrometers) [UPDATE: missed maneuver]
+   LunIR        : Infrared imaging of the lunar surface [UPDATE: problems]
+   OMOTENASHI   : Lunar lander and studying the lunar environment
+                  Separate trajectory available in Horizons.
+                  [UPDATE: lunar activity cancelled, communications problems]
+
+  Radiation
+   CuSP         : Measure particles & magnetic fields (space weather station)
+   BioSentinel  : Use single-celled yeast to detect, measure and compare the 
+                  impact of deep-space radiation on living organisms over a 
+                  long period of time
+   EQUULEUS     : Image Earth's plasmasphere for a better understanding of
+                  Earth's radiation environment from Earth-Moon LaGrange 2 
+                  point ("EM-L2", object 3012 in Horizons)
+
+  Asteroid
+   NEA Scout    : Travel by solar sail to asteroid 2020 GE to image and 
+                  characterize its surface in September 2024.  Separate 
+                  trajectory available in Horizons.
+                  [UPDATE: No contact after deployment]
+
+  Technology Demonstrations
+   ArgoMoon      : Observing interim cryogenic propulsion stage with advanced 
+                   optics and software imaging system
+   Team Miles    : Demonstrating propulsion using plasma thrusters, competing 
+                   in NASA's Deep Space Derby [UPDATE: no contact after 
+                   deployment]
+
+ SPACECRAFT TRAJECTORY:
+  Post-launch reconstructed Orion trajectory from NASA/JSC navigation:
+
+  Trajectory name                              Start (TDB)    Stop (TDB)
+  ----------------------------------------- ----------------- -----------------
+  Orion_OEM_20221117_1600_V0.1              2022-Nov-16 09:03 2022-Nov-17 17:47
+  20221118_1920_EPH_OEM.V0.1                2022-Nov-17 17:47 2022-Nov-19 03:51
+  20221119_1407_V0.2                        2022-Nov-19 03:51 2022-Nov-19 18:35
+  20221120_1342_V0.1                        2022-Nov-19 18:35 2022-Nov-20 13:12
+  20221121_1411_V0.1                        2022-Nov-20 13:12 2022-Nov-21 16:58
+  20221121_1235_V0.1                        2022-Nov-21 16:58 2022-Nov-23 00:32
+  20221124_0150_V0.1                        2022-Nov-23 00:32 2022-Nov-24 01:04
+  20221125_0550_V0.1                        2022-Nov-24 01:04 2022-Nov-27 01:11
+  20221127_1156_V0.1                        2022-Nov-27 01:11 2022-Nov-28 00:09
+  20221129_1115_V0.1                        2022-Nov-28 00:09 2022-Nov-29 15:42
+  20221201_0017_V0.1                        2022-Nov-29 15:42 2022-Nov-30 16:32
+  20221201_1240_V0.1                        2022-Nov-30 16:32 2022-Dec-02 09:11
+  20221203_0000_V0.1                        2022-Dec-02 09:11 2022-Dec-03 14:52
+  20221205_0010_V0.1                        2022-Dec-03 14:52 2022-Dec-04 18:45
+  20221205_0100_V0.1                        2022-Dec-04 18:45 2022-Dec-05 19:22
+  20221206_1330_V0.2                        2022-Dec-05 19:22 2022-Dec-06 17:11
+  20221207_1334_V0.1                        2022-Dec-06 17:11 2022-Dec-07 05:11
+  20221208_0703_V0.1                        2022-Dec-07 05:11 2022-Dec-08 19:12
+  20221208_1345.V0.10                       2022-Dec-08 19:12 2022-Dec-10 01:34
+  20221210_2304.V0.1                        2022-Dec-10 01:34 2022-Dec-11 17:19
+*******************************************************************************
+
+
+*******************************************************************************
+Ephemeris / WWW_USER Sat Mar  4 11:14:44 2023 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Artemis I (spacecraft) (-1023)  {source: Artemis_I_merged}
+Center body name: Solar System Barycenter (0)     {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2022-Nov-17 00:00:00.0000 TDB
+Stop  time      : A.D. 2022-Dec-10 00:00:00.0000 TDB
+Step-size       : 1440 minutes
+*******************************************************************************
+Center geodetic : 0.0, 0.0, 0.0                   {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.0, 0.0, 0.0                   {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : (undefined)
+Output units    : KM-S
+Calendar mode   : Mixed Julian/Gregorian
+Output type     : GEOMETRIC cartesian states
+Output format   : 3 (position, velocity, LT, range, range-rate)
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+            JDTDB,            Calendar Date (TDB),                      X,                      Y,                      Z,                     VX,                     VY,                     VZ,                     LT,                     RG,                     RR,
+**************************************************************************************************************************************************************************************************************************************************************************
+$$SOE
+2459900.500000000, A.D. 2022-Nov-17 00:00:00.0000,  8.483085057164197E+07,  1.201678807438512E+08,  3.459811223911494E+04, -2.625497707637767E+01,  1.649830245531765E+01,  5.627457721235540E-02,  4.906521934276241E+02,  1.470938270907589E+08, -1.663319617460089E+00,
+2459901.500000000, A.D. 2022-Nov-18 00:00:00.0000,  8.258869174300903E+07,  1.215847662383218E+08,  3.694504689227790E+04, -2.578656758993676E+01,  1.628074771032089E+01,  9.035803065703618E-03,  4.902796371219163E+02,  1.469821375201273E+08, -1.021808812668560E+00,
+2459902.500000000, A.D. 2022-Nov-19 00:00:00.0000,  8.036468837830225E+07,  1.229792605147128E+08,  3.691700032116473E+04, -2.572213516689884E+01,  1.599266381025794E+01, -7.657373229778663E-03,  4.900371381280461E+02,  1.469094381506925E+08, -6.833168244149413E-01,
+2459903.500000000, A.D. 2022-Nov-20 00:00:00.0000,  7.814109421319468E+07,  1.243477010763246E+08,  3.583240553493053E+04, -2.575987649189447E+01,  1.568336653996338E+01, -1.653268380265605E-02,  4.898781702267481E+02,  1.468617807728192E+08, -4.270338652261925E-01,
+2459904.500000000, A.D. 2022-Nov-21 00:00:00.0000,  7.591207929466499E+07,  1.256900540133077E+08,  3.423871148474514E+04, -2.584702976339822E+01,  1.540660495664984E+01, -1.916460689502930E-02,  4.897901727572307E+02,  1.468353997951348E+08, -1.746542044688520E-01,
+2459905.500000000, A.D. 2022-Nov-22 00:00:00.0000,  7.372369650148989E+07,  1.269797965772597E+08,  2.762046531079710E+04, -2.499614141661899E+01,  1.407281759544240E+01, -1.384227533537805E-01,  4.897722067276382E+02,  1.468300137149628E+08, -3.803599131868003E-01,
+2459906.500000000, A.D. 2022-Nov-23 00:00:00.0000,  7.154999718463750E+07,  1.281857711643057E+08,  1.657525781449676E+04, -2.527704015494104E+01,  1.385439265756591E+01, -1.196206978977230E-01,  4.896806614197700E+02,  1.468025691220987E+08, -2.223266802339304E-01,
+2459907.500000000, A.D. 2022-Nov-24 00:00:00.0000,  6.935693808785839E+07,  1.293748040633135E+08,  6.908687005072832E+03, -2.549494003618489E+01,  1.367120997253669E+01, -1.030914339194657E-01,  4.896491965744532E+02,  1.467931361987805E+08,  3.122909200217574E-03,
+2459908.500000000, A.D. 2022-Nov-25 00:00:00.0000,  6.714285154161026E+07,  1.305478560508502E+08, -8.812910995930433E+02, -2.576527571404306E+01,  1.347822320465235E+01, -8.549122658728070E-02,  4.896796495254462E+02,  1.468022657638120E+08,  2.016258790978985E-01,
+2459909.500000000, A.D. 2022-Nov-26 00:00:00.0000,  6.490278621794513E+07,  1.317020938932777E+08, -7.366252214126289E+03, -2.613502814464734E+01,  1.315135962953486E+01, -6.620590359787926E-02,  4.897581251993641E+02,  1.468257921789891E+08,  2.440030694807844E-01,
+2459910.500000000, A.D. 2022-Nov-27 00:00:00.0000,  6.262945873348892E+07,  1.328271576410595E+08, -1.213847088367492E+04, -2.649318234561503E+01,  1.288639826251677E+01, -4.417654032379303E-02,  4.898454673020096E+02,  1.468519766826281E+08,  3.568935224904227E-01,
+2459911.500000000, A.D. 2022-Nov-28 00:00:00.0000,  6.032407852169414E+07,  1.339282319245237E+08, -1.498665318051726E+04, -2.687520931955642E+01,  1.259988982432098E+01, -2.135984173697381E-02,  4.899620110541804E+02,  1.468869156205559E+08,  4.510888472797793E-01,
+2459912.500000000, A.D. 2022-Nov-29 00:00:00.0000,  5.798518822630544E+07,  1.350044217143722E+08, -1.579921565905958E+04, -2.726477684799466E+01,  1.231248451116718E+01,  2.698940693774077E-03,  4.901063072244352E+02,  1.469301745241166E+08,  5.532327953753114E-01,
+2459913.500000000, A.D. 2022-Nov-30 00:00:00.0000,  5.561312705894598E+07,  1.360556723200252E+08, -1.453514604447782E+04, -2.764163708753210E+01,  1.201904792678751E+01,  2.630823791695036E-02,  4.902821032143569E+02,  1.469828768360417E+08,  6.668898485008260E-01,
+2459914.500000000, A.D. 2022-Dec-01 00:00:00.0000,  5.320889456644949E+07,  1.370806292264493E+08, -1.129484563148767E+04, -2.800896714914923E+01,  1.171159227951584E+01,  4.812781380754227E-02,  4.904899302839654E+02,  1.470451818240786E+08,  7.827914790632942E-01,
+2459915.500000000, A.D. 2022-Dec-02 00:00:00.0000,  5.077333056988230E+07,  1.380774220475034E+08, -6.171831144928932E+03, -2.825934015207549E+01,  1.135160880104944E+01,  7.349632610346113E-02,  4.907282873973878E+02,  1.471166394889933E+08,  9.011870238892019E-01,
+2459916.500000000, A.D. 2022-Dec-03 00:00:00.0000,  4.831406268201425E+07,  1.390413364765155E+08,  1.061645955711603E+03, -2.867132106444367E+01,  1.095300894447889E+01,  9.368954892441828E-02,  4.909939062048815E+02,  1.471962700041829E+08,  9.354387747536280E-01,
+2459917.500000000, A.D. 2022-Dec-04 00:00:00.0000,  4.581863496414603E+07,  1.399687232423629E+08,  9.883267285019159E+03, -2.909257698978394E+01,  1.050737906124238E+01,  1.098232139407505E-01,  4.912640550027176E+02,  1.472772585763119E+08,  9.351297906270114E-01,
+2459918.500000000, A.D. 2022-Dec-05 00:00:00.0000,  4.328771635907160E+07,  1.408569101025206E+08,  1.983787350744009E+04, -2.948095482051715E+01,  1.006811363626805E+01,  1.190030767826813E-01,  4.915346893719799E+02,  1.473583927190923E+08,  9.636541580587228E-01,
+2459919.500000000, A.D. 2022-Dec-06 00:00:00.0000,  4.076378858657768E+07,  1.416826967052005E+08,  1.823870138472319E+04, -2.886093058838114E+01,  8.277632506151019E+00, -2.036526676687784E-01,  4.917743197662424E+02,  1.474302321039998E+08, -2.501041623639991E-02,
+2459920.500000000, A.D. 2022-Dec-07 00:00:00.0000,  3.825277825284251E+07,  1.423727376126345E+08,  2.347256020694971E+03, -2.923297790507647E+01,  7.675787121425657E+00, -1.730950685267705E-01,  4.917471475630013E+02,  1.474220860824009E+08, -1.724314357361229E-01,
+2459921.500000000, A.D. 2022-Dec-08 00:00:00.0000,  3.571350185952442E+07,  1.430079921678138E+08, -1.178846790146083E+04, -2.954611963327292E+01,  7.025055177831496E+00, -1.528544039029049E-01,  4.916732520364662E+02,  1.473999327608657E+08, -3.429754664652417E-01,
+2459922.500000000, A.D. 2022-Dec-09 00:00:00.0000,  3.314679843823754E+07,  1.435857741680164E+08, -2.370735765838623E+04, -2.987405472425123E+01,  6.343104658587094E+00, -1.203269258415451E-01,  4.915470197176659E+02,  1.473620892637335E+08, -5.391266180408291E-01,
+2459923.500000000, A.D. 2022-Dec-10 00:00:00.0000,  3.054949777979334E+07,  1.441022639749550E+08, -3.172363395329565E+04, -3.026651523684519E+01,  5.596290632881586E+00, -5.707442419253983E-02,  4.913562765646525E+02,  1.473049059050450E+08, -8.023281956274935E-01,
+$$EOE
+**************************************************************************************************************************************************************************************************************************************************************************
+ 
+TIME
+
+  Barycentric Dynamical Time ("TDB" or T_eph) output was requested. This
+continuous coordinate time is equivalent to the relativistic proper time
+of a clock at rest in a reference frame co-moving with the solar system
+barycenter but outside the system's gravity well. It is the independent
+variable in the solar system relativistic equations of motion.
+
+  TDB runs at a uniform rate of one SI second per second and is independent
+of irregularities in Earth's rotation.
+ 
+CALENDAR SYSTEM
+
+  Mixed calendar mode was active such that calendar dates after AD 1582-Oct-15
+(if any) are in the modern Gregorian system. Dates prior to 1582-Oct-5 (if any)
+are in the Julian calendar system, which is automatically extended for dates
+prior to its adoption on 45-Jan-1 BC.  The Julian calendar is useful for
+matching historical dates. The Gregorian calendar more accurately corresponds
+to the Earth's orbital motion and seasons. A "Gregorian-only" calendar mode is
+available if such physical events are the primary interest.
+
+REFERENCE FRAME AND COORDINATES
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: IAU76 obliquity of 84381.448 arcseconds wrt ICRF X-Y plane
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      X      X-component of position vector (km)
+      Y      Y-component of position vector (km)
+      Z      Z-component of position vector (km)
+      VX     X-component of velocity vector (km/sec)                           
+      VY     Y-component of velocity vector (km/sec)                           
+      VZ     Z-component of velocity vector (km/sec)                           
+      LT     One-way down-leg Newtonian light-time (sec)
+      RG     Range; distance from coordinate center (km)
+      RR     Range-rate; radial velocity wrt coord. center (km/sec)
+
+ABERRATIONS AND CORRECTIONS
+
+ Geometric state vectors have NO corrections or aberrations applied.
+
+Computations by ...
+
+    Solar System Dynamics Group, Horizons On-Line Ephemeris System
+    4800 Oak Grove Drive, Jet Propulsion Laboratory
+    Pasadena, CA  91109   USA
+
+    General site: https://ssd.jpl.nasa.gov/
+    Mailing list: https://ssd.jpl.nasa.gov/email_list.html
+    System news : https://ssd.jpl.nasa.gov/horizons/news.html
+    User Guide  : https://ssd.jpl.nasa.gov/horizons/manual.html
+    Connect     : browser        https://ssd.jpl.nasa.gov/horizons/app.html#/x
+                  API            https://ssd-api.jpl.nasa.gov/doc/horizons.html
+                  command-line   telnet ssd.jpl.nasa.gov 6775
+                  e-mail/batch   https://ssd.jpl.nasa.gov/ftp/ssd/hrzn_batch.txt
+                  scripts        https://ssd.jpl.nasa.gov/ftp/ssd/SCRIPTS
+    Author      : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
